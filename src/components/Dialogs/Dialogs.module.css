@@ -1,0 +1,31 @@
+.dialogs {
+	margin: 0;
+	display: grid;
+	grid: repeat(3, auto) / repeat(2, auto);
+	row-gap: 1rem;
+}
+
+.dialogs__title {
+	margin: 0 0 1rem 0;
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: rgb(28, 126, 158);
+	text-align: left;
+}
+
+.dialogs__dialogTitle {
+	grid-area: 1/1;
+
+}
+
+.dialogs__messageTitle {
+	grid-area: 1/2;
+	text-indent: 1rem;
+}
+
+.dialogs__dialogItems {
+	grid-area: 2/1;
+	padding: 0 1.5rem 0 0;
+	border-right: 2px solid rgb(47, 156, 192);
+}
+

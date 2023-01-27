@@ -1,0 +1,28 @@
+.newpost {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 2rem 0;
+}
+
+.newpost__field {
+	border-radius: 0.33rem;
+	margin: 0 0 0.5rem 0;
+}
+
+.newpost__button {
+	width: 7rem;
+	height: 2rem;
+	border-radius: 0.16rem;
+	align-self: flex-end;
+	border: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.newpost__button:hover {
+	filter: brightness(0.9);
+}
+
+textarea {
+	resize: none;
+}

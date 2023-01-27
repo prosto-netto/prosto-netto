@@ -1,0 +1,18 @@
+.sidebar {
+	box-sizing: border-box;
+	grid-area: 2/1/3/2;
+	border-radius: 0.33rem;
+	background-color: rgb(242, 240, 90);
+}
+
+.sidebar__nav {
+	margin: 1rem 1rem 0 1rem;
+}
+
+.sidebar__nav > *:last-child{
+	margin-top: 3.5rem;
+}
+
+.sidebar__friends {
+	margin: 2rem 0;
+}

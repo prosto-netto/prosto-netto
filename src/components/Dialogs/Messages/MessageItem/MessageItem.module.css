@@ -1,0 +1,20 @@
+.messageItem {
+	flex: 0 1 5%;
+	max-width: fit-content;
+	margin: 0 0 0.3rem 1rem;
+	padding: 0.3rem 0.7rem;
+	border: 2px solid rgba(47, 156, 192, 0.7);
+	border-radius: 0.9rem;
+	background-color: #ededed;
+	color: #101010;
+}
+
+.messageItem_textAlign_left {
+	align-self: flex-start;
+	margin:  0.7rem 0 0.7rem 1rem;
+}
+
+.messageItem_textAlign_right {
+	align-self: flex-end;
+}
+

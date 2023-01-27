@@ -1,0 +1,6 @@
+.banner {
+	height: 8rem;
+	border-radius: 0.35rem;
+	background-repeat: repeat-x;
+	background-size: contain;
+}

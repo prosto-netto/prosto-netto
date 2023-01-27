@@ -1,0 +1,29 @@
+.currentPage {
+	display: inline-block;
+	width: fit-content;
+	height: 1.3rem;
+	margin: 0 0.2rem 0.2rem 0;
+	padding: 0 0.4rem;
+	border: 1px solid #00008b80;
+	border-radius: 0.22rem;
+	color: #00008b80;
+	background-color: #e1e1e1;
+}
+
+.otherPages {
+	display: inline-block;
+	width: fit-content;
+	height: 1.3rem;
+	margin: 0 0.2rem 0.2rem 0;
+	padding: 0 0.4rem;
+	border: 1px solid darkblue;
+	border-radius: 0.22rem;
+	color: darkblue;
+	background-color: #fff;
+	transition: filter 0.3s ease-in;
+	cursor: pointer;
+}
+
+.otherPages:hover {
+	filter: brightness(0.8);
+}

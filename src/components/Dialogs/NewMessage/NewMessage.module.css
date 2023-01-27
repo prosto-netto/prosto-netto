@@ -1,0 +1,19 @@
+.newMessage {
+	grid-area: 3/2;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.newMessage__text {
+	width: 100%;
+	border-radius: 0.33rem;
+	border: 2px solid rgb(47, 156, 192);
+}
+
+.newMessage__button {
+	display: block;
+	margin: 0.5rem 0 0 0;
+}

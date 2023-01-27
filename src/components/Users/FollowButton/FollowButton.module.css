@@ -1,0 +1,14 @@
+.follow, .unfollow {
+	margin-top: 0.5rem;
+	width: 7rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.follow {
+	color: green;
+}
+
+.unfollow {
+	color: red;
+}

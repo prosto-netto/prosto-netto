@@ -1,0 +1,35 @@
+.mypost {
+	position: relative;
+	width: 93%;
+	border-radius: 0.33rem;
+	margin: 0 0 1rem 4rem;
+}
+
+.mypost__text {
+	margin: 0;
+	padding: 0.5rem;
+	border-radius: 0.45rem;
+	background-color: #e8e8e8;
+}
+
+.mypost::before {
+	content: "";
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	left: -4rem;
+	top: 0;
+	border-radius: 50%;
+	background-color: #e8e8e8;
+}
+.mypost__like{
+	margin: 0;
+	padding: 0 0.5rem 0 0;
+	text-align: right;
+}
+
+
+.mypost__likeHeart {
+	font-size: 1.2rem;
+	color: red;
+}

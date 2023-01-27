@@ -1,0 +1,29 @@
+.aside__link, .aside__link_active {
+	display: block;
+	height: 1.5rem;
+	width: 90%;
+	margin: 0px 0px 0.45rem 0px;
+	padding: 0.2rem 0.5rem 0 0.5rem;
+	font-weight: 700;
+	font-size: 1.15rem;
+	color: rgb(38, 74, 173);
+	text-decoration: none;
+	text-shadow: 2px 2px 5px #10101080;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.aside__link_active {
+	transition: all 0.3s ease-in-out;
+	color: rgb(125, 33, 132);
+
+}
+
+.aside__link:active, .aside__link:focus,
+.aside__link:visited {
+	color: rgb(38, 74, 173);
+}
+
+.aside__link:hover {
+	filter: brightness(0.8);
+}

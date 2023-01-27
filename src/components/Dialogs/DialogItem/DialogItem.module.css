@@ -1,0 +1,28 @@
+.dialog {
+	display: flex;
+	margin: 0 0 1.5rem 0;
+}
+
+.dialog:last-child {
+	margin: 0;
+}
+
+.dialogLink, .dialogLink_active {
+	margin: 0 0 0 0.7rem;
+	text-decoration: none;
+	font-style: italic;
+	color: rgb(28, 126, 158);
+	font-weight: 700;
+}
+
+.dialogLink {
+	transition: filter 0.3s ease-in-out;
+}
+
+.dialogLink:hover {
+	filter: brightness(0.5);
+}
+
+.dialogLink_active {
+	color: rgb(145, 31, 158);
+}

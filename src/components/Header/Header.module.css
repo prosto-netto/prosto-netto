@@ -1,0 +1,36 @@
+.header {
+	background-color: rgb(242, 240, 90);
+	height: 100%;
+	padding: 0 1.3rem;
+	grid-area: 1/1/2/3;
+	border-bottom-left-radius: 0.33rem;
+	border-bottom-right-radius: 0.33rem;
+}
+
+.header_display_flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	flex: 0 1 17%;
+	margin: 0;
+}
+
+.header__logo_align_left {
+	text-align: left;
+}
+
+.header__logoImage {
+	max-width: 45%;
+}
+
+.login, .unauth {
+	font-weight: 700;
+	color: #1f3d91;
+}
+
+.unauth {
+	text-decoration: none;
+}
